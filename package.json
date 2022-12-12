@@ -1,0 +1,24 @@
+{
+  "name": "jest_testcontainer_concept2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/pg": "^8.6.5",
+    "testcontainers": "^8.10.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "test.container.ts"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    }
+  }
+}
