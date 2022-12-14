@@ -1,6 +1,8 @@
+/*  */
+
 CREATE TABLE IF NOT EXISTS books
 (
     id    SERIAL PRIMARY KEY,
     name  VARCHAR(100) NOT NULL UNIQUE,
-    price INTEGER      NOT NULL
+    price NUMERIC      NOT NULL
 );
