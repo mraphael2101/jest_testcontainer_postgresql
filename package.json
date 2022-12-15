@@ -1,8 +1,5 @@
 {
   "name": "jest_testcontainer_concept2",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "dependencies": {
     "pg": "^8.8.0"
   },
@@ -22,3 +19,4 @@
     }
   }
 }
+
