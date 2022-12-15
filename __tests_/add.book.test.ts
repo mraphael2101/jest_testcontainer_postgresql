@@ -1,9 +1,9 @@
 import {resultset} from "../config/hooks";
 
-test("Validate: Names and Prices of books in the PostgreSQL Container", async () => {
+test("Validate: Names and Prices of books in PostgreSQL Container", async () => {
     expect(resultset.rows[0].name).toBe("Oliver Twist");
-    expect(resultset.rows[1].name).toBe("Jingle Jangle");
     expect(resultset.rows[0].price).toBe("3.99");
+    expect(resultset.rows[1].name).toBe("Jingle Jangle");
     expect(resultset.rows[1].price).toBe("4.50");
 
     let i = 0;
