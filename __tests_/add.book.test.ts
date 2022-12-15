@@ -1,4 +1,4 @@
-import {resultset} from "./hooks";
+import {resultset} from "../config/hooks";
 
 test("Validate: Names and Prices of books in the PostgreSQL Container", async () => {
     expect(resultset.rows[0].name).toBe("Oliver Twist");
