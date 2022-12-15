@@ -5,7 +5,7 @@ import {GenericContainer} from "testcontainers";
  *  Testcontainers is a library that supports different unit test frameworks like Jest and JUnit etc.,
  *  providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything
  *  else that can run inside a Docker container
- * */
+ */
 
 export async function generatePgClientWithTestContainer(): Promise<Client> {
 
